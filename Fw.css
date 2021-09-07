@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'ZCOOL_KuaiLe';
+    src: url(../assets/fonts/ZCOOLKuaiLe-Regular.ttf);
+}
+@font-face {
+    font-family: 'Teko';
+    src: url(../assets/fonts/Teko-Regular.ttf);
+}
+html,body {
+    width:100%;
+    height:100%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main_head {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.main_head a {
+    color: #Fdfff5;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Foodweb {
+    background-image: url('../assets/images/Food_1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0.85em;
+}
+li {
+    display: inline;
+    padding: 0em 0.4em;
+}
+.midcont {
+    border: 0;
+    background: #F9F6EE;
+    width: fit-content;
+    height: auto;
+    opacity: 0.9;
+    text-align: center;
+    margin: 10em auto;
+}
+.midcont p {
+    margin: auto;
+    font-size: 3em;
+    color: #2d3a42;
+    font-weight: bold;
+    padding: 0.1em;
+    font-family: 'ZCOOL_KuaiLe';
+}
+.midcont h2 {
+    color: #ae6b12;
+    font-size: 4em;
+}
+.rm {
+    border: none;
+    background: #FFFFFF;
+    font: 3em bold;
+    font-family: 'Teko';
+
+}
+.flavi {
+    background: #2a3c40;
+}
+.flav h1,p {
+    text-align: center;
+    color: whitesmoke;
+    margin: 0.8em;
+}
+.flav img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.tas {
+    background: #d6d7d9;
+    display: flex;
+    justify-content: space-between;
+}
+.pl {
+    background-image: url('../assets/images/Food_2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.plate {
+    border: 0;
+    background: #F9F6EE;
+    padding: 2em; 
+    opacity: 0.8;
+    text-align: center;
+}
+.plate h1 {
+    font-family: 'ZCOOL_KuaiLe';
+    font-size: 4em;
+    color: #2d3a42;
+    margin: auto;
+}
+.plate h2 {
+    color: #a86200;
+    font-size: 4em;
+    padding: 0.3em;
+}
+.ct img {
+    width: 100%;
+}
+.ct h3 {
+    color: #243c46;
+}
+.ct p {
+    color: #243c46;
+    font-weight: bold;
+}
+.trads {
+    background: #d6d7d9;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+.cuisine h2 {
+    text-align: center;
+    padding: 0.5em;
+}
+.cuisine p {
+    color: #243c46;
+    font-weight: bold;
+}
+.cuse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3em;
+}
+.cse li {
+    padding: 2em;
+    color: #2a3c3e;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.ourmen {
+    background: url('../assets/images/Food_5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.menu {
+    background: #F9F6EE;
+    padding: 2em;
+    opacity: 0.8;
+}
+.menu h1 {
+    color: #294550;
+    text-align: center;
+    font-family: 'ZCOOL_KuaiLe';
+    font-size: 3em;
+}
+.menu h2 {
+    text-align: center;
+    color: #ad6b0c;
+    font-size: 4em;
+}
+.contf{
+    background: #2b3a40;
+}
+.fd {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fd h4 {
+    font-size: 1.5em;
+}
+.fd p {
+    color: #243c46;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+ /* Form Validation  */
+.conhead{
+    display: flex;
+    justify-content: center;
+  }
+  .conform {
+      background: url(../assets/images/Food_17.jpg);
+      background-position: center;
+      background-size: cover;
+  }
+  .conhead p {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: auto;
+    padding: 1em;
+    color: white;
+  }
+  .form {
+    background: white;
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    opacity: 0.8;
+  }
+  .form-field label {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .form h1 {
+    padding: 1em;
+    border-bottom: 0.04em solid black;
+  }
+  .form-field {
+    padding: 2em;
+  }
+  .form-field input[type=text] {
+    border: 0.1em solid black;
+    border-radius: 0.1em;
+    padding: 0.5em 0.5em;
+    margin-bottom: 0.5em;
+    display: block;
+  }
+  .form-field input[type=email] {
+    border: 0.1em solid black;
+    border-radius: 0.1em;
+    padding: 0.5em 0.5em;
+    display: block;
+
+  }
+  .form-field input[type=password] {
+    border: 0.1em solid black;
+    border-radius: 0.1em;
+    padding: 0.5em 0.5em;
+    display: block;
+  }
+  /* .form-field #confirm-password {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: block;
+  } */
+  .form-field.error input {
+    border-color: #dc3545;
+  }
+  
+  .form-field.success input {
+    border-color: #28a745;
+  }
+ 
+  .form-field.small {
+    color: #dc3545;
+    
+  }
+  .form-field input[type=submit] {
+    padding: 1em 2em;
+    background : black;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .form-field input:focus {
+    outline: none;
+}
+  .form-field input[type=submit]:hover {
+    background: 	#555;
+    cursor: pointer;
+  }  
+  #topbtn {
+    display: none;
+    position: fixed;
+    bottom: 0.5em;
+    right: 1em;
+    z-index: 99;
+    width: auto;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 0.8em; 
+  } 
+  #topbtn:hover {
+    background-color: #555;
+  }
+
+  
